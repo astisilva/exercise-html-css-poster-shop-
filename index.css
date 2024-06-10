@@ -216,6 +216,7 @@ footer .social-media-icons {
 .checkout-total p {
   padding: 10px;
   font-size: 32px;
+  margin-top: 10px;
 }
 
 .checkout-item {
@@ -233,6 +234,7 @@ footer .social-media-icons {
 .checkout-item p:nth-child(3),
 .checkout-total p:nth-child(3) {
   padding-left: 100px;
+
 }
 
 .checkout-total {
@@ -240,7 +242,7 @@ footer .social-media-icons {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   justify-content: space-between;
-  padding-top: 20px;
+
   border-top: 2px solid #333;
   font-weight: bold;
 }
