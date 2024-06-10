@@ -72,6 +72,11 @@ article.small-cards {
   margin-top: 20px;
 }
 
+.small-card p{
+  font-size: 16px;
+  font-weight: 400;
+}
+
 button{
   background-color: rgba(232, 63, 87, 1);
   border: none;
@@ -79,6 +84,8 @@ button{
   border-radius: 4px;
   padding: 8px 16px;
   margin-top: 40px;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .big-button{
@@ -119,7 +126,12 @@ button{
 }
 
 .big-card h2, .big-card p, .big-card button{
-  margin:30px;
+  margin:25px;
+}
+
+.big-card h2{
+  font-size: 34px;
+  font-weight: 700;
 }
 
 footer {
@@ -129,29 +141,53 @@ footer {
   height: 320px;
   justify-items: center;
   align-items: center;
+  max-width: 1440px;
+  width: 100%;
 }
-.navigation{
-  margin-left: 60px;
-} 
 
-.social-media{
-margin-right: 80px;
+footer .navigation {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: flex-start;
+  margin-left: 160px;
+}
+
+footer .address {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+footer .social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 190px; 
 }
 
 footer article h4 {
   margin-bottom: 10px;
+  font-size:34px;
+  font-weight: 700;
 }
- 
+
 footer article p {
   margin-bottom: 5px;
-} 
+  font-size: 16px;
+  font-weight: 400;
+}
 
 footer .social-media-icons {
   display: flex;
   gap: 10px;
-  justify-content: center;
+  justify-content: center; 
 }
 
+.social-media img{
+  width: 32px;
+  height: 32px;
+}
 
 /* ------------------------- checkout---------------------------- */
 
@@ -166,7 +202,7 @@ footer .social-media-icons {
 .checkout-header,
 .checkout-item,
 .checkout-total {
-  display: contents;
+  display: contents;  
 }
 
 .checkout-header p,
@@ -174,6 +210,10 @@ footer .social-media-icons {
 .checkout-total p {
   padding: 10px;
   text-align: left;
+}
+
+.checkout-item{
+  border-bottom: 2px solid #333;
 }
 
 .checkout-header p {
@@ -187,13 +227,14 @@ footer .social-media-icons {
   justify-content: space-between;
   padding: 10px;
   border-top: 2px solid #333;
-  font-weight: bold;
 }
 
 .checkout-total p {
   padding: 10px;
   font-weight: bold;
-  border-top: 2px solid #333;
+}
+.checkout-price{
+  margin-right: 230px;
 }
 
 .checkout-total p:nth-child(1) {
