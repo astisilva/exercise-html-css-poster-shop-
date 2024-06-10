@@ -223,6 +223,7 @@ footer .social-media-icons {
 }
 
 .checkout-header p {
+  color: rgba(238, 238, 238, 0.8);
   font-size: 24px;
   font-weight: 400;
   background-color: rgba(237, 54, 54, 0.2);
@@ -257,37 +258,3 @@ footer .social-media-icons {
   grid-column: 3 / 4;
   text-align: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
