@@ -233,8 +233,7 @@ footer .social-media-icons {
 .checkout-header p:nth-child(3),
 .checkout-item p:nth-child(3),
 .checkout-total p:nth-child(3) {
-  padding-left: 100px;
-
+  padding-left: 110px;
 }
 
 .checkout-total {
