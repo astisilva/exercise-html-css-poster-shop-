@@ -95,7 +95,7 @@ button{
   border-radius: 4px;
   padding: 16px 24px;
   cursor: pointer;
-}
+ }
 
 .small-cards .small-card {
   max-width: 312px; 
@@ -125,8 +125,12 @@ button{
   object-fit: cover;
 }
 
-.big-card h2, .big-card p, .big-card button{
-  margin:25px;
+.big-card h2, .big-card p {
+  margin: 25px 25px 0 25px;
+}
+
+.big-card button{
+  margin: 25px;
 }
 
 .big-card h2{
@@ -197,6 +201,7 @@ footer .social-media-icons {
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
   margin-top: 40px;
+ 
 }
 
 .checkout-header,
@@ -210,6 +215,7 @@ footer .social-media-icons {
 .checkout-total p {
   padding: 10px;
   text-align: left;
+ font-size: 32px;
 }
 
 .checkout-item{
@@ -217,7 +223,8 @@ footer .social-media-icons {
 }
 
 .checkout-header p {
-  font-weight: bold;
+font-size: 24px;
+font-weight: 400;
   background-color: rgba(237, 54, 54, 0.2);
 }
 
@@ -225,16 +232,14 @@ footer .social-media-icons {
   grid-column: 1 / -1;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding-top: 20px;
   border-top: 2px solid #333;
+  font-weight: 700;
+
 }
 
-.checkout-total p {
-  padding: 10px;
-  font-weight: bold;
-}
 .checkout-price{
-  margin-right: 230px;
+  margin-right:170px;
 }
 
 .checkout-total p:nth-child(1) {
